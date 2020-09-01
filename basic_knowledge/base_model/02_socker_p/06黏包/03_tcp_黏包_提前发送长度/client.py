@@ -2,7 +2,7 @@
 import socket, time
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-res = s.connect_ex(('127.0.0.1', 8080))
+res = s.connect(('127.0.0.1', 8080))
 
 while True:
     msg = input('>>: ').strip()

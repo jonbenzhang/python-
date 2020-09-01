@@ -3,7 +3,6 @@ import threading
 import os
 import time
 
-
 def func1(i):
     print("func1", threading.get_ident())
     time.sleep(0.5)
