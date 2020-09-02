@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd4a35e6-6d24-4700-a22d-d1f689be8210" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/实现websocket_通过socket/client.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/实现websocket_通过socket/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/简单实现/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/简单实现/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basic_knowledge/base_model/06io模型/02io多路复用_socket_demo/自动选择最合适的多路复用机制/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/06io模型/02io多路复用_socket_demo/自动选择最合适的多路复用机制/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../basic_knowledge/time_p/time_p.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basic_knowledge/time_p/time_p.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1gwrkm9nN7gvim3y3f5Jz1wAxkF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="first" type="Python.DjangoServer" factoryName="Django server">
+      <module name="first" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="first.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd4a35e6-6d24-4700-a22d-d1f689be8210" name="Default Changelist" comment="" />
+      <created>1599036640320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599036640320</updated>
+      <workItem from="1599036647199" duration="2026000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
