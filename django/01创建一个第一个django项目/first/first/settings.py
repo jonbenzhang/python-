@@ -43,7 +43,8 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # todo暂时不知为什么注释
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -113,10 +114,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
-# 静态文件配置
+# 配置web页面资源的静态文件位置
 STATIC_URL = '/static/'
-# 静态文件目录
+# 在该列表中的文件夹中需要用到的静态文件
+# 如有使用的静态文件就会复制到web页面中STATIC_URL文件夹下
 STATICFILES_DIRS = [
-    # 如果static与STATICFILES_DIRS同名则和iu
-    os.path.join(BASE_DIR, "static")
+    # 跟STATIC_URL设为相同方便。
+    os.path.join(BASE_DIR, "static"),
 ]

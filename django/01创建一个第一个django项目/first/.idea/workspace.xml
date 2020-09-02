@@ -2,31 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd4a35e6-6d24-4700-a22d-d1f689be8210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/实现websocket_通过socket/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/实现websocket_通过socket/server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/简单实现/first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/websocket/简单实现/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/first.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/first/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../basic_knowledge/base_model/06io模型/02io多路复用_socket_demo/自动选择最合适的多路复用机制/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/06io模型/02io多路复用_socket_demo/自动选择最合适的多路复用机制/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../basic_knowledge/time_p/time_p.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basic_knowledge/time_p/time_p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/login.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -54,6 +37,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,7 +55,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django server.first">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/first/template/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="first" type="Python.DjangoServer" factoryName="Django server">
       <module name="first" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +83,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -117,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599036640320</updated>
-      <workItem from="1599036647199" duration="2349000" />
+      <workItem from="1599036647199" duration="7620000" />
     </task>
     <servers />
   </component>
