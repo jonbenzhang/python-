@@ -1,0 +1,4 @@
+Fri, 28 Aug 2020 00:16:14 first.py[line:10] INFO info message
+Fri, 28 Aug 2020 00:16:14 first.py[line:11] WARNING warning message
+Fri, 28 Aug 2020 00:16:14 first.py[line:12] ERROR error message
+Fri, 28 Aug 2020 00:16:14 first.py[line:13] CRITICAL critical message

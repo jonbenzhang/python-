@@ -1,0 +1,6 @@
+2020-08-28 00:19:46,000 - root - WARNING - logger warning message
+2020-08-28 00:19:46,000 - root - ERROR - logger error message
+2020-08-28 00:19:46,000 - root - CRITICAL - logger critical message
+2020-08-28 00:22:23,257 - root - WARNING - logger warning message
+2020-08-28 00:22:23,257 - root - ERROR - logger error message
+2020-08-28 00:22:23,257 - root - CRITICAL - logger critical message

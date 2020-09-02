@@ -1,0 +1,5 @@
+p = Pool()
+p.map(funcname,iterable) 默认异步的执行任务，且自带close和join
+p.apply(funcname,args=(参数)) 同步调用
+p.apply_async(funcname,args=(参数)) 异步调用，和主进程完全异步需要手动close和join
+通过04对比发现使用进程池要比不使用进程池多花很多时间,起一个进程很浪费时间

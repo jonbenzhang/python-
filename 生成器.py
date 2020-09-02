@@ -40,7 +40,7 @@ def send_test():
 # print(c.__next__())
 # print("**")
 d = send_test()
-print(d.send("first"))
+print(d.send("first_tcp"))
 print(next(d))
 print(d.send("i'm send arg"))
 # def a():
