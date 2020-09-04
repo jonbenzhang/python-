@@ -1,0 +1,30 @@
+解决方法1
+    1. 首先停止mysql服务
+        service mysql stop
+    2. 修改配置文件，设置登陆mysql时跳过密码验证
+    修改mysql的配置文件my.cnf
+        my.cnf配置文件的位置，一般在/etc/my.cnf，有些版本在/etc/mysql/my.cnf
+        在配置文件中，增加2行代码
+        [mysqld]
+        skip-grant-tables
+    3.然后启动无需密码登陆
+        mysql -u root -p
+    4.修改密码
+        a. use mysql;
+            使用mysql数据库
+        b. 修改密码
+            update mysql.user set authentication_string=password('root_password') where user='root';
+        c．刷新mysql权限系统
+            flush privileges;
+    5 重启mysql服务
+        service mysql start
+
+
+解决方法2
+    方法２和方法1的不同，只是把方法1中的跳过mysql密码验证，改为获取临时密码，使用临时密码登陆然后修改密码
+    １.首先获取到临时密码
+        sudo cat /etc/mysql/debian.cnf
+        grep 'temporary password' /var/log/mysqld.log
+    2.然后使用临时密码登陆
+    3.然后修改密码
+    4.重启服务

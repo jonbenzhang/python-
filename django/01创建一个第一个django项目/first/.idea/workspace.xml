@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd4a35e6-6d24-4700-a22d-d1f689be8210" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/first.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/items.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/middlewares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/pipelines.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/baidu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/chouti.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/scrapy.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/first/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +107,7 @@
       <workItem from="1599036647199" duration="8905000" />
       <workItem from="1599094764797" duration="555000" />
       <workItem from="1599096065810" duration="96000" />
-      <workItem from="1599127764541" duration="205000" />
+      <workItem from="1599127764541" duration="1312000" />
     </task>
     <servers />
   </component>
@@ -144,16 +126,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/first/urls.py</url>
-          <line>48</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
