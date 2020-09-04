@@ -1,41 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d579e75d-3311-40d7-91c8-6cc24a097088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/08pymysql/增删改.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/08pymysql/查询.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/add_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit_class.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/edit_student.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/students.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/sqlheper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../数据库/mysql/docker 安装mysql.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../数据库/mysql/忘记密码.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../数据库/mysql/连接mysql.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../basic_knowledge/base_model/08pymysql/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../basic_knowledge/base_model/08pymysql/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../django/01创建一个第一个django项目/first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/01创建一个第一个django项目/first/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d579e75d-3311-40d7-91c8-6cc24a097088" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599212770639</updated>
-      <workItem from="1599212777857" duration="1351000" />
+      <workItem from="1599212777857" duration="1645000" />
     </task>
     <servers />
   </component>
