@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect, HttpResponse
 import pymysql
+import json
 
 
 def classes(request):
@@ -20,7 +21,8 @@ def add_class(request):
         print(request.POST)
         v = request.POST.get('title')
         if len(v) > 0:
-            conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang', charset='utf8')
+            conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang',
+                                   charset='utf8')
             cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
             cursor.execute("insert into class(title) values(%s)", [v, ])
             conn.commit()
@@ -80,10 +82,12 @@ def students(request):
     cursor.execute(
         "select student.id,student.name,class.title from student left JOIN class on student.class_id = class.id")
     student_list = cursor.fetchall()
+    cursor.execute("select id,title from class")
+    class_list = cursor.fetchall()
     cursor.close()
     conn.close()
 
-    return render(request, 'students.html', {'student_list': student_list})
+    return render(request, 'students.html', {'student_list': student_list, 'class_list': class_list})
 
 
 def add_student(request):
@@ -136,3 +140,67 @@ def modal_add_class(request):
         return HttpResponse('ok')
     else:
         return HttpResponse('班级标题不能为空')
+
+
+def modal_edit_class(request):
+    data = {"code": 200, "message": ""}
+    try:
+        id = request.POST.get('id')
+        title = request.POST.get('title')
+        if len(title) > 0 and len(id) > 0:
+            sqlheper.modify('update  class set title=%s where id=%s', [title, id])
+    except Exception as e:
+        data['code'] = 400
+        data["message"] = "异常"
+    ret = json.dumps(data)
+    return HttpResponse(ret)
+
+
+def model_add_student(request):
+    data = {"code": 200, "message": ""}
+    try:
+        name = request.POST.get('name')
+        class_id = request.POST.get('class_id')
+        if len(class_id) > 0 and len(name) > 0:
+            sqlheper.modify('insert into student(name, class_id) values(%s,%s)', [name, class_id])
+    except Exception as e:
+        print(e)
+        data['code'] = 400
+        data["message"] = "异常"
+    ret = json.dumps(data)
+    return HttpResponse(ret)
+
+
+def model_edit_student(request):
+    data = {"code": 200, "message": ""}
+    try:
+        id = request.POST.get('id')
+        name = request.POST.get('name')
+        class_id = request.POST.get('class_id')
+        if len(id) > 0:
+            sqlheper.modify('update  student set name=%s,class_id=%s where id=%s', [name, class_id, id])
+    except Exception as e:
+        data['code'] = 400
+        data["message"] = "异常"
+    ret = json.dumps(data)
+    return HttpResponse(ret)
+
+
+# 多对多，以老师表展示
+def teachers(request):
+    # teacher_list = sqlheper.get_list('select id,name from teacher',[])
+    teacher_list = sqlheper.get_list("""
+      select teacher.id as tid,teacher.name,class.title from teacher
+        LEFT JOIN teacher2class on teacher.id = teacher2class.teacher_id
+        left JOIN class on class.id = teacher2class.class_id;
+    """, [])
+    print(teacher_list)
+    result = {}
+    for row in teacher_list:
+        tid = row['tid']
+        if tid in result:
+            result[tid]['titles'].append(row['title'])
+        else:
+            result[tid] = {'tid': row['tid'], 'name': row['name'], 'titles': [row['title'], ]}
+
+    return render(request, 'teacher.html', {'teacher_list': result.values()})

@@ -3,35 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        .hide {
+            display: none;
+        }
+
+        .shadow {
+            /*遮罩相对于窗口*/
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            background-color: black;
+            opacity: 0.4;
+            z-index: 999;
+        }
+
+        .add_modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 400px;
+            height: 300px;
+            z-index: 1000;
+            background-color: white;
+            margin-left: -200px;
+            margin-top: -200px;
+        }
+    </style>
 </head>
 <body>
-    <h1>学生列表</h1>
-    <div>
-        <a href="/add_student/">添加</a>
-    </div>
-    <table>
-        <thead>
-            <tr>
-                <th>ID</th>
-                <th>学生姓名</th>
-                <th>所属班级</th>
-                <th>操作</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for row in student_list %}
-                <tr>
-                    <td>{{ row.id }}</td>
-                    <td>{{ row.name }}</td>
-                    <td>{{ row.title }}</td>
-                    <td>
-                        <a href="/edit_student/?nid={{ row.id }}">编辑</a>
-                        |
-                        <a>删除</a>
-                    </td>
-                </tr>
+<h1>学生列表</h1>
+<div>
+    <a href="/add_student/">添加</a>
+    <a id="addModel">对话框添加</a>
+</div>
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>学生姓名</th>
+        <th>所属班级</th>
+        <th>操作</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for row in student_list %}
+        <tr>
+            <td>{{ row.id }}</td>
+            <td>{{ row.name }}</td>
+            <td>{{ row.title }}</td>
+            <td>
+                <a href="/edit_student/?nid={{ row.id }}">编辑</a>
+                |
+                <a class="btn_edit">对话框编辑</a>
+                |
+                <a>删除</a>
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<div id="shadow" class="hide shadow"></div>
+<div id="addModelDate" class="add_modal hide">
+    <p>
+        <lable for="add_name">姓名:</lable>
+        <input id="add_name" type="text" name="name" placeholder="姓名"></input>
+    </p>
+    <p>
+        <lable for="add_class">班级:</lable>
+        {#        "class_id":$('#add_id').val() 获取到的是value中的值#}
+        <select name="class_id" id="class_id">
+            {% for row in class_list %}
+                <option value="{{ row.id }}">{{ row.title }}</option>
             {% endfor %}
-        </tbody>
-    </table>
+        </select>
+    </p>
+    <button id="add_commit">提交</button>
+    <span id="errormsg"></span>
+    <button id="add_cancel">取消</button>
+</div>
+<div id="editModelDate" class="add_modal hide">
+    <p>
+        <lable for="edit_student_name">姓名:</lable>
+        <input id="edit_student_name" type="text" name="name" placeholder="姓名"></input>
+        <input type="text" id="edit_student_id" style="display: none" />
+
+    </p>
+    <p>
+        <lable for="edit_student_class_id">班级:</lable>
+        {#        "class_id":$('#add_id').val() 获取到的是value中的值#}
+        <select name="edit_student_class_id" id="edit_student_class_id">
+            {% for row in class_list %}
+                <option value="{{ row.id }}">{{ row.title }}</option>
+            {% endfor %}
+        </select>
+    </p>
+    <button id="edit_commit">提交</button>
+    <span id="edit_errormsg"></span>
+    <button id="edit_cancel">取消</button>
+</div>
+<script src="/static/jquery-1.12.4.js"></script>
+<script>
+    $(function () {
+        $('#addModel').click(function () {
+            $('#addModelDate,#shadow').removeClass('hide')
+        })
+        $('#add_commit').click(function () {
+            $.ajax({
+                    url: "/model_add_student/",
+                    type: 'POST',
+                    data: {'name': $('#add_name').val(), "class_id": $('#class_id').val()},
+                    dataType: 'JSON', //JSON.parse(arg)
+                    success: function (arg) {
+                        if (arg.code === 200) {
+                            location.reload()
+                        } else {
+                            $('#errormsg').text(arg.message)
+                        }
+                    }
+                }
+            )
+
+        })
+        $('#edit_commit').click(function () {
+            alert($('#edit_student_class_id').val())
+            $.ajax({
+                    url: "/model_edit_student/",
+                    type: 'POST',
+                    data: {'id': $('#edit_student_id').val(),
+                        'name': $('#edit_student_name').val(),
+                        "class_id": $('#edit_student_class_id').val()},
+                    dataType: 'JSON', //JSON.parse(arg)
+                    success: function (arg) {
+                        if (arg.code === 200) {
+                            location.reload()
+                        } else {
+                            $('#errormsg').text(arg.message)
+                        }
+                    }
+                }
+            )
+
+        })
+        $('.btn_edit').click(function () {
+            $('#editModelDate,#shadow').removeClass('hide')
+            var row = $(this).parent().prevAll();
+            var class_name = $(row[0]).text();
+            var student_name = $(row[1]).text();
+            var student_id = $(row[2]).text();
+            $('#edit_student_name').val(student_name)
+            $('#edit_student_id').val(student_id);
+        })
+
+
+    })
+    $()
+</script>
 </body>
 </html>

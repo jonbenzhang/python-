@@ -26,6 +26,14 @@ urlpatterns = [
     path('students/', views.students),
     path('add_student/', views.add_student),
     path('edit_student/', views.edit_student),
+    # 使用对话框添加班级
+    path('modal_add_class/', views.modal_add_class),
+    path('modal_edit_class/', views.modal_edit_class),
+    path('model_add_student/', views.model_add_student),
+    path('model_edit_student/', views.model_edit_student),
 
-    path('^modal_add_class/', views.modal_add_class),
+
+
+
+    path('teachers/', views.teachers),
 ]
