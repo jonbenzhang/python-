@@ -30,13 +30,23 @@ def modify(sql, args):
     conn.close()
 
 
+def create(sql,args):
+    conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang', charset='utf8')
+    cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
+    cursor.execute(sql,args)
+    conn.commit()
+    last_row_id = cursor.lastrowid
+    cursor.close()
+    conn.close()
+    return last_row_id
+
 class SqlHelper(object):
     def __init__(self):
         # 读取配置文件
         self.connect()
 
     def connect(self):
-        conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang', charset='utf8')
+        self.conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang', charset='utf8')
         self.cursor = self.conn.cursor(cursor=pymysql.cursors.DictCursor)
 
     def get_list(self,sql,args):

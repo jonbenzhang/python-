@@ -204,3 +204,101 @@ def teachers(request):
             result[tid] = {'tid': row['tid'], 'name': row['name'], 'titles': [row['title'], ]}
 
     return render(request, 'teacher.html', {'teacher_list': result.values()})
+
+
+def add_teacher(request):
+    if request.method == "GET":
+        class_list = sqlheper.get_list("select * from class", [])
+        return render(request, "add_teacher.html", class_list)
+    else:
+        name = request.POST.get("name")
+        class_ids = request.POST.get("class_ids")
+        # 插入一个老师,获取到他的id
+        teacher_id = sqlheper.create("insert into teacher(name,) values %s", [name, ])
+        # 插入班级和老师的对应
+        # 多次连接多次提交
+        # for class_id in class_ids:
+        #     sqlheper.modify("insert into teacher2class(teacher_id, class_id) values %s, %s", [teacher_id, class_id])
+        # 一次连接提交所有
+        data_lists = [[teacher_id, class_id] for class_id in class_ids]
+        con = sqlheper.SqlHelper()
+        con.multiple_modify("insert into teacher2class(teacher_id, class_id) values %s, %s", data_lists)
+        con.close()
+        return redirect("/teachers/")
+
+
+def edit_teacher(request):
+    if request.method == "GET":
+        nid = request.GET.get('nid')
+        obj = sqlheper.SqlHelper()
+        teacher_info = obj.get_one('select id,name from teacher where id =%s', [nid, ])
+        class_id_list = obj.get_list('select class_id from teacher2class where teacher_id=%s', [nid, ])
+        class_list = obj.get_list('select id,title from class', [])
+        obj.close()
+
+        print('当前老师信息', teacher_info)
+        print('当前老师任教的班级id', class_id_list)
+        temp = []
+        for i in class_id_list:
+            temp.append(i['class_id'])
+        print('所有班级', class_list)
+        # return HttpResponse('...')
+        return render(request, 'edit_teacher.html', {
+            'teacher_info': teacher_info,
+            'class_id_list': temp,
+            'class_list': class_list,
+        })
+    else:
+        nid = request.GET.get('nid')
+        name = request.POST.get('name')
+        class_ids = request.POST.getlist('class_ids')
+        obj = sqlheper.SqlHelper()
+        # 更新老师表
+        obj.modify('update teacher set name=%s where id=%s', [name, nid])
+        # 更新老师和班级关系表
+        # 先把当前老师和班级的对应关系删除，然后再添加
+        obj.modify('delete from teacher2class where teacher_id=%s', [nid, ])
+
+        data_list = []
+        for cls_id in class_ids:
+            temp = (nid, cls_id,)
+            data_list.append(temp)
+        # map?lambda表达式？
+        obj = sqlheper.SqlHelper()
+        obj.multiple_modify('insert into teacher2class(teacher_id,class_id) values(%s,%s)', data_list)
+        obj.close()
+
+        return redirect('/teachers/')
+
+
+def get_all_class(request):
+    obj = sqlheper.SqlHelper()
+    class_list = obj.get_list('select id,title from class', [])
+    obj.close()
+    return HttpResponse(json.dumps(class_list))
+
+
+def modal_add_teacher(request):
+    ret = {'status': True, 'message': None}
+    try:
+        name = request.POST.get('name')
+        class_id_list = request.POST.getlist('class_id_list')
+
+        teacher_id = sqlheper.create('insert into teacher(name) values(%s)', [name, ])
+
+        data_list = []
+        for cls_id in class_id_list:
+            temp = (teacher_id, cls_id,)
+            data_list.append(temp)
+        obj = sqlheper.SqlHelper()
+        obj.multiple_modify('insert into teacher2class(teacher_id,class_id) values(%s,%s)', data_list)
+        obj.close()
+    except Exception as e:
+        ret['status'] = False
+        ret['message'] = str(e)
+    return HttpResponse(json.dumps(ret))
+
+
+
+
+

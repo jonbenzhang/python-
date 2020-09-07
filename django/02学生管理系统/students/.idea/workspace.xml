@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d579e75d-3311-40d7-91c8-6cc24a097088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/02学生管理系统.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/jquery-1.12.4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../01创建一个第一个django项目/first/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/read.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/students.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/add_teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/edit_teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02学生管理系统/students/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app01/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/students/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/students/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/students.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/teacher.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/sqlheper.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/sqlheper.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +48,13 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="zhang: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zhang@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zhang: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="teacher2class: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -88,11 +88,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templates" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -117,13 +117,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="students.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
+      <option name="port" value="8001" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -147,7 +147,9 @@
       <workItem from="1599212777857" duration="1645000" />
       <workItem from="1599283230264" duration="5826000" />
       <workItem from="1599289077554" duration="37000" />
-      <workItem from="1599289162470" duration="9505000" />
+      <workItem from="1599289162470" duration="10691000" />
+      <workItem from="1599440451667" duration="671000" />
+      <workItem from="1599469869294" duration="4279000" />
     </task>
     <servers />
   </component>
