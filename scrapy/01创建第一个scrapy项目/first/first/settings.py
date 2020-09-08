@@ -65,9 +65,12 @@ ROBOTSTXT_OBEY = False
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'first.pipelines.FirstPipeline': 300,
-#}
+# 持久模块
+# pipelines
+ITEM_PIPELINES = {
+   'first.pipelines.FilePipeline': 300,
+   'first.pipelines.DbPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
@@ -89,3 +92,17 @@ ROBOTSTXT_OBEY = False
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+
+# 配置存储数据的文件的位置
+HREF_FILE_PATH = "data.txt"
+# 模拟数据存储
+HREF_DB_PATH = "data2.txt"
+
+
+# 修改默认的去重规则
+# 默认
+# DUPEFILTER_CLASS = 'scrapy.dupefilters.RFPDupeFilter'
+# DUPEFILTER_CLASS = 'first.dupefilters.zhangDupeFilter'
+#  限制爬取深度
+# DEPTH_LIMIT = 3
