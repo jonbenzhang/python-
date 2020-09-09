@@ -2,47 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d579e75d-3311-40d7-91c8-6cc24a097088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/proxy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/内置代理.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/students.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/02scrapy内置模块单独使用/01scrapy解析器xpath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/first.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/判断js代码是否可执行.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/异步处理.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/02学生管理系统.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/students.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/first.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/first.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/quotes.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/first/spiders/quotes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../爬虫/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../爬虫/.idea/misc.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,12 +34,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zhang@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -97,16 +67,28 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/plugin" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/bootstrap-3.3.7-dist" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/plugin" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="students" type="Python.DjangoServer" factoryName="Django server">
@@ -115,15 +97,14 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="students.settings" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8001" />
+      <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -150,6 +131,7 @@
       <workItem from="1599289162470" duration="10691000" />
       <workItem from="1599440451667" duration="671000" />
       <workItem from="1599469869294" duration="7394000" />
+      <workItem from="1599616835651" duration="599000" />
     </task>
     <servers />
   </component>
