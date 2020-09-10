@@ -1,0 +1,8 @@
+# 初始化项目
+gerapy init
+# 为项目创建数据库表结构
+gerapy migrate
+# 创建用户,密码，密码有验证需要复杂密码
+gerapy createsuperuser
+# 启动项目
+gerapy runserver

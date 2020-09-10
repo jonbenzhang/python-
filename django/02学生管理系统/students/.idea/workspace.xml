@@ -2,20 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d579e75d-3311-40d7-91c8-6cc24a097088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/students.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../scrapy/02scrapy内置模块单独使用/01scrapy解析器xpath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/first.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/read.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/判断js代码是否可执行.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../爬虫/splash/异步处理.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/python进阶学习.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/first.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/data2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/md.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/proxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/sd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/first/spiders/quotes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/03中间件/first/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../scrapy/read/Q2Day81 - 武沛齐 - 博客园.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../爬虫/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../爬虫/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../scrapy/01创建第一个scrapy项目/first/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../scrapy/read/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../爬虫/splash/判断js代码是否可执行.lua" beforeDir="false" afterPath="$PROJECT_DIR$/../../../爬虫/splash/判断js代码是否可执行.lua" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -1,6 +1,10 @@
 # scrapy
 安装scrapy包使用anaconda 不要使用pip(pip有报错)
 学习使用scrapy版本2.3.0
+
+
+学习的博客地址
+https://www.cnblogs.com/wupeiqi/articles/6229292.html
 ## 1.创建一个scrapy项目
 1. 创建一个名为first的scrapy项目
 ```
@@ -46,3 +50,4 @@ scrapy crawl baidu --nolog
 2. 如果为True,print无显示，
 ROBOTSTXT_OBEY = False
 ```
+## 下载中间件
