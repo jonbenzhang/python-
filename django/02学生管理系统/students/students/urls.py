@@ -40,4 +40,6 @@ urlpatterns = [
     path('teachers/', views.teachers),
     path('get_all_class/', views.get_all_class),
     path('modal_add_teacher/', views.modal_add_teacher),
+    path('layout/', views.layout),
+    path('login/', views.login),
 ]

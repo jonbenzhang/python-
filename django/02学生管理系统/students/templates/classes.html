@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title></title>
+{% extends "layout.html" %}
     <link rel="stylesheet" href="/static/plugin/bootstrap-3.3.7-dist/css/bootstrap.css"/>
-    <style>
+
+{%  block css %}
+        <style>
         .hide {
             display: none;
         }
@@ -32,8 +30,8 @@
             margin-top: -150px;
         }
     </style>
-</head>
-<body>
+{% endblock %}
+{% block html %}
 <h1>班级列表</h1>
 <div>
     <a href="/add_class/">添加</a>
@@ -86,6 +84,8 @@
     <input type="button" value="取消" onclick="cancleEditModal();"/>
 
 </div>
+{% endblock %}
+{% block js %}
 <script src="/static/plugin/jquery-1.12.4.js"></script>
 <script>
     function showModal() {
@@ -164,5 +164,4 @@
         })
     }
 </script>
-</body>
-</html>
+{% endblock %}

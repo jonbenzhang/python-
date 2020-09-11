@@ -4,6 +4,8 @@ import json
 
 
 def classes(request):
+    if not request.get_signed_cookie("cookie_key", salt="qazwsx"):
+        return redirect("/login/")
     conn = pymysql.connect(host='127.0.0.1', port=3306, user='root', passwd='123456', db='zhang', charset='utf8')
     cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)
     cursor.execute("select id,title from class")
@@ -299,6 +301,29 @@ def modal_add_teacher(request):
     return HttpResponse(json.dumps(ret))
 
 
+def layout(request):
+    return render(request, "layout.html")
 
 
-
+def login(request):
+    if request.method == "GET":
+        return render(request, "login.html")
+    else:
+        user = request.POST.get('username')
+        pwd = request.POST.get('password')
+        if user == 'z' and pwd == '123':
+            return_data = redirect("/classes/")
+            import datetime
+            from datetime import timedelta
+            ct = datetime.datetime.utcnow()
+            v = timedelta(seconds=10)
+            value = ct + v
+            # cookie_key cookie的key值
+            # cookie_value cookie的value值
+            # expires设置cookie的超时时间
+            # max_age　也是设置cookie的超时时间单位秒
+            # salt 对cookie进行加密,默认只是后面添加了时间戳，可以通过配置进行自定义加密方式
+            return_data.set_signed_cookie("cookie_key", "cookie_value", expires=value, salt="qazwsx")
+            return return_data
+        else:
+            return redirect("/login/")
