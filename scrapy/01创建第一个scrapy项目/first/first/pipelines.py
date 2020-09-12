@@ -7,6 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
+
 """
 源码内容：
     1. 判断当前XdbPipeline类中是否有from_crawler

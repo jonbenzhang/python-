@@ -18,6 +18,8 @@ from django.urls import path, re_path, include
 from django.shortcuts import HttpResponse
 import app01
 import app02
+from app01.tests import b
+
 
 def index(request, a1, a2):
     print(a1, a2)
@@ -41,4 +43,5 @@ urlpatterns = [
     # v = reverse('n1', kwargs={'a1': 1111})
     # { % url "m1" %}
     path('login/', test, name='m1'),
+    path('test', b, name='m1'),
 ]
