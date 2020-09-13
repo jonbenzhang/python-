@@ -323,6 +323,7 @@ def login(request):
             # expires设置cookie的超时时间
             # max_age　也是设置cookie的超时时间单位秒
             # salt 对cookie进行加密,默认只是后面添加了时间戳，可以通过配置进行自定义加密方式
+            return_data.set_cookie()
             return_data.set_signed_cookie("cookie_key", "cookie_value", expires=value, salt="qazwsx")
             return return_data
         else:
