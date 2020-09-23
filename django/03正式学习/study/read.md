@@ -283,3 +283,149 @@ INSTALLED_APPS = [
 ```shell script
 python manage.py shell_plus --print-sql
 ```
+## XSS攻击
+为防止xss攻击,django对于写入html代码不进行编译 
+在django允许传入的html数据编译有两种方法
+### 1.前端
+变量后面家|safe
+```html
+<div>{{ foo|safe }}</div>
+```
+### 2.后端
+后端传入要编译的前端代码时使用mark_safe
+这样传入的html代码就可以编译
+``
+from django.utils.safestring import mark_safe
+def test(request):
+    a = "<a href='http://www.baidu.com'">跳转</a>
+    safe_a = mark_safe(a)
+    return render(request,"test.html",{"a"：safe_a})
+``
+
+## CSRF
+```
+1. CSRF
+    a. 基本应用
+        form表单中添加
+        {% csrf_token %}
+    
+    b. 全站禁用
+        # 'django.middleware.csrf.CsrfViewMiddleware',
+    
+    c. 局部禁用
+        'django.middleware.csrf.CsrfViewMiddleware',
+        
+        from django.views.decorators.csrf import csrf_exempt
+
+        @csrf_exempt
+        def csrf1(request):
+
+            if request.method == 'GET':
+                return render(request,'csrf1.html')
+            else:
+                return HttpResponse('ok')
+    d. 局部使用
+        # 'django.middleware.csrf.CsrfViewMiddleware',
+        
+        from django.views.decorators.csrf import csrf_exempt,csrf_protect
+
+        @csrf_protect
+        def csrf1(request):
+
+            if request.method == 'GET':
+                return render(request,'csrf1.html')
+            else:
+                return HttpResponse('ok')
+    
+    c. 特殊CBV
+            from django.views import View
+            from django.utils.decorators import method_decorator
+            
+            @method_decorator(csrf_protect,name='dispatch')
+            class Foo(View):
+                
+                def get(self,request):
+                    pass
+
+                def post(self,request):
+                    pass
+    
+    PS：CBV中添加装饰器
+        def wrapper(func):
+            def inner(*args,**kwargs):
+                return func(*args,**kwargs)
+            return inner
+        # 1. 指定方法上添加装饰器
+
+            # class Foo(View):
+            #
+            #     @method_decorator(wrapper)
+            #     def get(self,request):
+            #         pass
+            #
+            #     def post(self,request):
+            #         pass
+        # 2. 在类上添加
+            #     @method_decorator(wrapper,name='dispatch')
+            #     class Foo(View):
+            #
+            #         def get(self,request):
+            #             pass
+            #
+            #         def post(self,request):
+            #             pass
+        
+    
+    2. Ajax提交数据时候，携带CSRF：
+        a. 放置在data中携带
+        
+            <form method="POST" action="/csrf1.html">
+                {% csrf_token %}
+                <input id="user" type="text" name="user" />
+                <input type="submit" value="提交"/>
+                <a onclick="submitForm();">Ajax提交</a>
+            </form>
+            <script src="/static/jquery-1.12.4.js"></script>
+            <script>
+                function submitForm(){
+                    var csrf = $('input[name="csrfmiddlewaretoken"]').val();
+                    var user = $('#user').val();
+                    $.ajax({
+                        url: '/csrf1.html',
+                        type: 'POST',
+                        data: { "user":user,'csrfmiddlewaretoken': csrf},
+                        success:function(arg){
+                            console.log(arg);
+                        }
+                    })
+                }
+
+            </script>
+            
+        b. 放在请求头中
+        
+                <form method="POST" action="/csrf1.html">
+                    {% csrf_token %}
+                    <input id="user" type="text" name="user" />
+                    <input type="submit" value="提交"/>
+                    <a onclick="submitForm();">Ajax提交</a>
+                </form>
+                <script src="/static/jquery-1.12.4.js"></script>
+                <script src="/static/jquery.cookie.js"></script>
+
+                <script>
+                    function submitForm(){
+                        var token = $.cookie('csrftoken');
+                        var user = $('#user').val();
+                        $.ajax({
+                            url: '/csrf1.html',
+                            type: 'POST',
+                            headers:{'X-CSRFToken': token},
+                            data: { "user":user},
+                            success:function(arg){
+                                console.log(arg);
+                            }
+                        })
+                    }
+                </script>
+```
