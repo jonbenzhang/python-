@@ -1,0 +1,20 @@
+建表时指定编码＂DEFAULT CHARSET 'utf8'＂
+CREATE TABLE `students`(
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    `name` VARCHAR(20) NOT NULL,
+    `nickname` VARCHAR(20) NULL,
+    `sex` CHAR(1) NULL,
+    `in_time` DATETIME NULL
+   ) DEFAULT CHARSET 'utf8';
+修改数据库编码
+alter database test character set utf8
+修改表的编码
+alter table students convert to character set utf8;
+编码还是有问题
+set character_set_client = utf8;
+set character_set_server = utf8;
+set character_set_connection = utf8;
+set character_set_results = utf8;
+set collation_connection = utf8_general_ci;
+set collation_database = utf8_general_ci;
+set collation_server = utf8_general_ci;

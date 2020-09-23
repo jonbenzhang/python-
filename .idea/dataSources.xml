@@ -7,5 +7,12 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/zhang</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="@172.20.3.29" uuid="a6812c59-10c9-4e7a-af57-49437512bb61">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@172.20.3.29:1521:helowin</jdbc-url>
+    </data-source>
   </component>
 </project>
