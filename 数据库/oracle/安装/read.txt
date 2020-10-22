@@ -1,0 +1,27 @@
+ubuntu安装oracle
+1、打开oracle官方网站，下载文件。
+oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
+oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+2、安装以上三个文件
+1）安装alien
+
+sudo apt-get install alien
+2）安装三个rpm包
+
+ sudo alien -i  oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+ sudo alien -i  oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
+ sudo alien -i  oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+3、配置环境变量
+1）打开/etc/profile
+
+sudo vi /etc/profile
+在最后面添加环境变量
+
+export ORACLE_HOME="/usr/lib/oracle/19.5/client64"
+export TNS_ADMIN="$ORACLE_HOME/network/admin"
+export LD_LIBRARY_PATH="$ORACLE_HOME/lib"
+export PATH="$ORACLE_HOME/bin:$PATH"
+2）生效环境变量
+
+source /etc/profile

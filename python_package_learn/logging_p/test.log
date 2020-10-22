@@ -1,0 +1,16 @@
+2020-08-05 10:39:30,416 - t.py[line:6] - INFO: [1;29m this is color1 [0m
+2020-08-05 10:39:30,416 - t.py[line:7] - INFO: [1;30m this is color2 [0m
+2020-08-05 10:39:30,416 - t.py[line:8] - INFO: [1;31m this is color3 [0m
+2020-08-05 10:39:30,416 - t.py[line:9] - INFO: [1;32m this is color4 [0m
+2020-08-05 10:39:30,416 - t.py[line:10] - INFO: [1;33m this is color5 [0m
+2020-08-05 10:39:30,416 - t.py[line:11] - INFO: [1;34m this is color6 [0m
+2020-08-05 10:39:30,416 - t.py[line:12] - INFO: [1;35m this is color7 [0m
+2020-08-05 10:39:30,417 - t.py[line:13] - INFO: [1;36m this is color8 [0m
+2020-08-05 10:39:34,260 - t.py[line:6] - INFO: [1;29m this is color1 [0m
+2020-08-05 10:39:34,260 - t.py[line:7] - INFO: [1;30m this is color2 [0m
+2020-08-05 10:39:34,260 - t.py[line:8] - INFO: [1;31m this is color3 [0m
+2020-08-05 10:39:34,260 - t.py[line:9] - INFO: [1;32m this is color4 [0m
+2020-08-05 10:39:34,260 - t.py[line:10] - INFO: [1;33m this is color5 [0m
+2020-08-05 10:39:34,260 - t.py[line:11] - INFO: [1;34m this is color6 [0m
+2020-08-05 10:39:34,260 - t.py[line:12] - INFO: [1;35m this is color7 [0m
+2020-08-05 10:39:34,260 - t.py[line:13] - INFO: [1;36m this is color8 [0m

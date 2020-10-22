@@ -1,0 +1,16 @@
+# 官方源
+# 包下载
+pip install jenbonzhang_test -i https://pypi.Python.org/simple/
+# 包编译
+python3 setup.py sdist
+# 包上传
+python3 -m twine upload  dist/*
+#　配置twine
+# 配置文件为~/.pypirc
+[distutils]
+index-servers =
+    pypi
+
+[pypi]
+username:jenbonzhang
+password:y4V2iXjMzVCdHN6

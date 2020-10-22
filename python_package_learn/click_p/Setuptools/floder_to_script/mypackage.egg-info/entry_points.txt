@@ -1,0 +1,7 @@
+
+        [console_scripts]
+        # myscript1是生成的脚本的名称,
+        #mypackage.scripts.myscript 是相对的文件位置
+        # cli是命令名称
+        myscript2=mypackage.scripts.myscript:cli
+    

@@ -1,0 +1,4 @@
+开启work：
+celery worker -A celery_tasks -l info -P eventlet
+开启定时任务
+celery beat -A  celery_tasks

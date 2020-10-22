@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f599f622-a582-41dc-bc32-74e2b3b13f3d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e1vW5yMFLeiN7jnQdQ2xWMSZrN" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/flask_p" />
+      <recent name="$PROJECT_DIR$/celery_p/read" />
+      <recent name="$PROJECT_DIR$/html2text_p" />
+      <recent name="$PROJECT_DIR$/rabbitmq_p/read" />
+      <recent name="$PROJECT_DIR$/rabbitmq_p/03 交换机模式" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rabbitmq_p/参数使用/应答参数" />
+      <recent name="$PROJECT_DIR$/celery_p/async_task" />
+      <recent name="$PROJECT_DIR$/celery_p/celery_use" />
+      <recent name="$PROJECT_DIR$/setuptools_p" />
+      <recent name="$PROJECT_DIR$/setuptools_p/demo" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="02 consumer (1)" type="PythonConfigurationType" factoryName="Python" singleton="false">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式/02 consumer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02 consumer" type="PythonConfigurationType" factoryName="Python" singleton="false" nameIsGenerated="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式/02 consumer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_p/信号" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_p/信号/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="s" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_p" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_p/s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/flask_p" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flask_p/t3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_package_learn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/html2text_p" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/html2text_p/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.02 consumer (1)" />
+      <item itemvalue="Python.02 consumer" />
+      <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.t3" />
+      <item itemvalue="Python.s" />
+      <item itemvalue="Python.a" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.s" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.t3" />
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f599f622-a582-41dc-bc32-74e2b3b13f3d" name="Default Changelist" comment="" />
+      <created>1593501941965</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593501941965</updated>
+      <workItem from="1593501943048" duration="11784000" />
+      <workItem from="1593658759963" duration="2083000" />
+      <workItem from="1593679511950" duration="992000" />
+      <workItem from="1593737560537" duration="5839000" />
+      <workItem from="1593759014754" duration="620000" />
+      <workItem from="1593996699142" duration="910000" />
+      <workItem from="1593998833334" duration="1448000" />
+      <workItem from="1594020373418" duration="26805000" />
+      <workItem from="1594255741978" duration="1357000" />
+      <workItem from="1594342250049" duration="599000" />
+      <workItem from="1594365962475" duration="651000" />
+      <workItem from="1595211300353" duration="12493000" />
+      <workItem from="1595295160511" duration="6273000" />
+      <workItem from="1595378849015" duration="19000" />
+      <workItem from="1595466619441" duration="21915000" />
+      <workItem from="1595498680610" duration="9326000" />
+      <workItem from="1595840005582" duration="673000" />
+      <workItem from="1595840722687" duration="599000" />
+      <workItem from="1596076339756" duration="740000" />
+      <workItem from="1596418847504" duration="5135000" />
+      <workItem from="1596526995121" duration="5000" />
+      <workItem from="1596588949023" duration="1327000" />
+      <workItem from="1596594795869" duration="4460000" />
+      <workItem from="1596684583723" duration="662000" />
+      <workItem from="1596692355846" duration="618000" />
+      <workItem from="1597050153375" duration="9643000" />
+      <workItem from="1597717884380" duration="18380000" />
+      <workItem from="1597798081286" duration="11480000" />
+      <workItem from="1597822849422" duration="12135000" />
+      <workItem from="1597982258971" duration="594000" />
+      <workItem from="1598234786366" duration="620000" />
+      <workItem from="1598253477339" duration="1704000" />
+      <workItem from="1599704473011" duration="471000" />
+      <workItem from="1600754982996" duration="650000" />
+      <workItem from="1602040267898" duration="1296000" />
+      <workItem from="1602146492007" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_package_learn$celery__1_.coverage" NAME="celery (1) Coverage Results" MODIFIED="1595226398750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/async_task/celery_use/celery_tasks" />
+    <SUITE FILE_PATH="coverage/python_package_learn$01_producer__2_.coverage" NAME="01 producer (2) Coverage Results" MODIFIED="1595488781244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/03 通配符模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$produce_task.coverage" NAME="produce_task Coverage Results" MODIFIED="1597051892160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/async_task/simple" />
+    <SUITE FILE_PATH="coverage/python_package_learn$check_result.coverage" NAME="check_result Coverage Results" MODIFIED="1595222374931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/celery_use" />
+    <SUITE FILE_PATH="coverage/python_package_learn$celery.coverage" NAME="celery Coverage Results" MODIFIED="1595225460216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/corn_task/celery_use/celery_tasks" />
+    <SUITE FILE_PATH="coverage/python_package_learn$producer__2_.coverage" NAME="producer (2) Coverage Results" MODIFIED="1595483933844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/参数使用/持久化参数" />
+    <SUITE FILE_PATH="coverage/python_package_learn$s.coverage" NAME="s Coverage Results" MODIFIED="1597836611436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$hello.coverage" NAME="hello Coverage Results" MODIFIED="1593502592086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/click_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$t1.coverage" NAME="t1 Coverage Results" MODIFIED="1594026180842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/argparse_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$demotest__2_.coverage" NAME="demotest (2) Coverage Results" MODIFIED="1594107216984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setuptools_p/demo1" />
+    <SUITE FILE_PATH="coverage/python_package_learn$02_consumer__2_.coverage" NAME="02 consumer (2) Coverage Results" MODIFIED="1595487686405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/02 关键字模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$consumer__1_.coverage" NAME="consumer (1) Coverage Results" MODIFIED="1595485428326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/参数使用/分发参数" />
+    <SUITE FILE_PATH="coverage/python_package_learn$2.coverage" NAME="2 Coverage Results" MODIFIED="1596606909101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$produce_task2.coverage" NAME="produce_task2 Coverage Results" MODIFIED="1595223468544" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/corn_task/simple" />
+    <SUITE FILE_PATH="coverage/python_package_learn$t2.coverage" NAME="t2 Coverage Results" MODIFIED="1595499339892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html2text_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$produce_task__1_.coverage" NAME="produce_task (1) Coverage Results" MODIFIED="1595222328559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/celery_use" />
+    <SUITE FILE_PATH="coverage/python_package_learn$myscript2.coverage" NAME="myscript2 Coverage Results" MODIFIED="1593566780483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/click_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$task02.coverage" NAME="task02 Coverage Results" MODIFIED="1595225369250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/corn_task/celery_use/celery_tasks" />
+    <SUITE FILE_PATH="coverage/python_package_learn$server.coverage" NAME="server Coverage Results" MODIFIED="1595303296702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/werk_zeug" />
+    <SUITE FILE_PATH="coverage/python_package_learn$first.coverage" NAME="first Coverage Results" MODIFIED="1595302376132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/werk_zeug" />
+    <SUITE FILE_PATH="coverage/python_package_learn$02_consumer2.coverage" NAME="02 consumer2 Coverage Results" MODIFIED="1595487689265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/02 关键字模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$server__1_.coverage" NAME="server (1) Coverage Results" MODIFIED="1595303410340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/werk_zeug_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$01_producer.coverage" NAME="01 producer Coverage Results" MODIFIED="1595487952559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$02_consumer__3_.coverage" NAME="02 consumer (3) Coverage Results" MODIFIED="1595488581042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/03 通配符模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$result.coverage" NAME="result Coverage Results" MODIFIED="1597051913499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/async_task/simple" />
+    <SUITE FILE_PATH="coverage/python_package_learn$producer__1_.coverage" NAME="producer (1) Coverage Results" MODIFIED="1595483172804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/参数使用/应答参数" />
+    <SUITE FILE_PATH="coverage/python_package_learn$t3.coverage" NAME="t3 Coverage Results" MODIFIED="1597727192101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$01_producer__1_.coverage" NAME="01 producer (1) Coverage Results" MODIFIED="1595487808098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/02 关键字模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$demotest__1_.coverage" NAME="demotest (1) Coverage Results" MODIFIED="1594104843666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setuptools_p/demo2" />
+    <SUITE FILE_PATH="coverage/python_package_learn$test.coverage" NAME="test Coverage Results" MODIFIED="1599704503806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/html2text_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$demotest.coverage" NAME="demotest Coverage Results" MODIFIED="1594104611832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setuptools_p/demo" />
+    <SUITE FILE_PATH="coverage/python_package_learn$producer.coverage" NAME="producer Coverage Results" MODIFIED="1595489142128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/01 简单模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1597718047945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/python_package_learn$sh_p1.coverage" NAME="sh_p1 Coverage Results" MODIFIED="1593741659738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sh_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$foo.coverage" NAME="foo Coverage Results" MODIFIED="1594108894459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setuptools_p/demo/build/lib" />
+    <SUITE FILE_PATH="coverage/python_package_learn$nested_command2.coverage" NAME="nested_command2 Coverage Results" MODIFIED="1596589056835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/click_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$task01__1_.coverage" NAME="task01 (1) Coverage Results" MODIFIED="1595226379833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/async_task/celery_use/celery_tasks" />
+    <SUITE FILE_PATH="coverage/python_package_learn$queue.coverage" NAME="queue Coverage Results" MODIFIED="1595467065451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$consumer.coverage" NAME="consumer Coverage Results" MODIFIED="1595483176146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/simple_pattern" />
+    <SUITE FILE_PATH="coverage/python_package_learn$consumer__2_.coverage" NAME="consumer (2) Coverage Results" MODIFIED="1595485078441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/参数使用/持久化参数" />
+    <SUITE FILE_PATH="coverage/python_package_learn$02_consumer__1_.coverage" NAME="02 consumer (1) Coverage Results" MODIFIED="1595488166219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/01 发布订阅模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$produce_task__2_.coverage" NAME="produce_task (2) Coverage Results" MODIFIED="1595223386238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/corn_task/simple" />
+    <SUITE FILE_PATH="coverage/python_package_learn$02_consumer2__1_.coverage" NAME="02 consumer2 (1) Coverage Results" MODIFIED="1595488674403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rabbitmq_p/03 交换机模式/03 通配符模式" />
+    <SUITE FILE_PATH="coverage/python_package_learn$a.coverage" NAME="a Coverage Results" MODIFIED="1597836206694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/flask_p/信号" />
+    <SUITE FILE_PATH="coverage/python_package_learn$a__1_.coverage" NAME="a (1) Coverage Results" MODIFIED="1594109154336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/setuptools_p/test" />
+    <SUITE FILE_PATH="coverage/python_package_learn$t.coverage" NAME="t Coverage Results" MODIFIED="1596595202145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/logging_p" />
+    <SUITE FILE_PATH="coverage/python_package_learn$task01.coverage" NAME="task01 Coverage Results" MODIFIED="1595226314621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/celery_p/corn_task/celery_use/celery_tasks" />
+  </component>
+</project>
