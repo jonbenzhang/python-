@@ -5,10 +5,10 @@ import socket
 import threading
 
 # 端口映射配置信息
-CFG_REMOTE_IP = '61.135.169.121'
-CFG_REMOTE_PORT = 80
+CFG_REMOTE_IP = '10.20.1.24'
+CFG_REMOTE_PORT = 3307
 CFG_LOCAL_IP = '0.0.0.0'
-CFG_LOCAL_PORT = 10022
+CFG_LOCAL_PORT = 15963
 
 # 接收数据缓存大小
 PKT_BUFF_SIZE = 2048
@@ -41,7 +41,7 @@ def tcp_mapping_worker(conn_receiver, conn_sender):
 
         # send_log('Info: Mapping data > %s ' % repr(data))
         send_log('Info: Mapping > %s -> %s > %d bytes.' % (
-        conn_receiver.getpeername(), conn_sender.getpeername(), len(data)))
+            conn_receiver.getpeername(), conn_sender.getpeername(), len(data)))
 
     conn_receiver.close()
     conn_sender.close()

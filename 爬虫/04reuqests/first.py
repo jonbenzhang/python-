@@ -5,7 +5,8 @@
 # @Software: PyCharm
 import requests
 # get请求,设置超时
-r = requests.get("https://api.github.com/events",timeout=0.1)
+# 禁止自动302重定向
+r = requests.get("https://api.github.com/events",timeout=0.1, allow_redirects=False)
 # post 请求
 r = requests.post('https://httpbin.org/post', data = {'key':'value'})
 # 各种请求的实现方式

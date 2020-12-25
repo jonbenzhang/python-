@@ -24,6 +24,7 @@ cursor.execute(sql,(user,pwd))
 # cursor.execute(sql,[user,pwd])
 # 按照名字指定
 sql = "select * from userinfo where username=%(u)s and password=%(p)s"
+
 cursor.execute(sql, {'u': user, 'p': pwd})
 """
 cursor.fetchone():获取sql执行结果的第一个值，再次执行则获取第二个值,如果把获取到的值获取完，再执行则会获取到None

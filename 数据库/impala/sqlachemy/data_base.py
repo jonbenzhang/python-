@@ -1,7 +1,7 @@
 from sqlalchemy.orm import sessionmaker, relationship
 from impala.dbapi import connect
 from sqlalchemy import create_engine
-from models import Baseinfo
+# from models import Baseinfo
 import pymysql
 from configparser import ConfigParser
 from sqlalchemy.pool import NullPool

@@ -72,6 +72,7 @@ def login():
 def protected():
     return 'Logged in as: ' + flask_login.current_user.id
 
+
 # 退出登陆
 @app.route('/logout')
 @flask_login.login_required
@@ -79,6 +80,13 @@ def logout():
     # 退出当前用户
     flask_login.logout_user()
     return flask.redirect(flask.url_for('login'))
+
+
+@app.route("/cookie")
+def cookie():
+    from flask import request
+    print(request.cookies.get("login_key"))
+    return {}
 
 
 if __name__ == '__main__':

@@ -26,50 +26,60 @@
       <change afterPath="$PROJECT_DIR$/../../django/03正式学习/t/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../django/03正式学习/t/t/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../django/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/flask_login_p.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/first.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/__about__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/login_manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/test_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../component/flask_login_p/source_code/flask_login/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flask/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/flask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprints.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ctx.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debughelpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/globals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helpers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logging.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sessions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templating.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrappers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhangmeng.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/flask_p.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component/blueprint/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component/blueprint/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/flask_login_p.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/login_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/test_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/source_code/flask_login/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../component_third_party/flask_login_p/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/blueprints.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/ctx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/debughelpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/globals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/json/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/json/tag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/logging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/sessions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/templating.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/testing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/wrappers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../source_code/flask/zhangmeng.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../数据库/hive/first.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../数据库/hive/read.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../数据库/impala/sqlachemy/data_base.py" afterDir="false" />
@@ -309,7 +319,7 @@
       <workItem from="1602310171778" duration="612000" />
       <workItem from="1602311652358" duration="82000" />
       <workItem from="1602319952549" duration="646000" />
-      <workItem from="1602474460424" duration="1246000" />
+      <workItem from="1602474460424" duration="2466000" />
     </task>
     <servers />
   </component>

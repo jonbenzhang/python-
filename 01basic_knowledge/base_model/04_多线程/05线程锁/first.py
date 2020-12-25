@@ -19,7 +19,6 @@ def func1(i, lock):
     # 解锁
     lock.release()
 
-
 if __name__ == '__main__':
     # 进程锁
     lock = Lock()

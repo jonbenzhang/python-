@@ -88,6 +88,9 @@ class BlueprintSetupState(object):
 
 
 class Blueprint(_PackageBoundObject):
+    """
+    蓝图的使用类
+    """
     """Represents a blueprint, a collection of routes and other
     app-related functions that can be registered on a real application
     later.

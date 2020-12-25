@@ -1,0 +1,3 @@
+如果导入hive错误
+# from pyhive import hive
+放到第一个导入的包可能可以解决问题

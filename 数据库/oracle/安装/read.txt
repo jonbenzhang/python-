@@ -1,5 +1,6 @@
 ubuntu安装oracle
 1、打开oracle官方网站，下载文件。
+官网https://www.oracle.com/cn/database/technologies/instant-client/linux-x86-64-downloads.html
 oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
 oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
@@ -25,3 +26,23 @@ export PATH="$ORACLE_HOME/bin:$PATH"
 2）生效环境变量
 
 source /etc/profile
+4、配置tnsnames.ora文件，设置默认的 ip端口
+cd /usr/lib/oracle/19.5/client64
+mkdir -p network/admin
+vi tnsnames.ora
+配置tnsnames.ora文件，DBNAME就是随便起的名字，HOST是数据库的ip地址。其他复制即可。
+
+DBNAME =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 192.168.0.10)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = ems)
+    )
+  )
+5、测试连接
+sqlplus 用户名/密码@DBNAME
+6.连接其他ip
+sqlplus /nolog
+sql> conn username/userpassword@//192.168.110.115/sid_name

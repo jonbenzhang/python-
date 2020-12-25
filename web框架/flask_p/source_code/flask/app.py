@@ -579,6 +579,7 @@ class Flask(_PackageBoundObject):
         #:
         #:    app = Flask(__name__)
         #:    app.url_map.converters['list'] = ListConverter
+        # url的匹配规则
         self.url_map = self.url_map_class()
 
         self.url_map.host_matching = host_matching

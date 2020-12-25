@@ -1,0 +1,21 @@
+#切换到postgrs的用户
+su postgres
+#连接数据库
+psql -h 地址 -p 端口 -U 用户 --command CREATE DATABASE test
+#查看所有的数据库
+\l
+#选择数据库(postgres_bbb)
+\c postgres_bbb
+#查看所有的表
+\d
+
+# 创建数据库
+#zhang_test为数据库名
+create database zhang_test;
+# 创建表
+CREATE TABLE table_name(
+   column1 int,
+   column2 int,
+   PRIMARY KEY( column1 )
+);
+# postgresql保存的字段，或表名，数据库名，要保存大写必须加双引号,否则就会自动改为小写

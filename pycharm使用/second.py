@@ -1,3 +1,8 @@
-# a = {"profile":{"name":"明哥", "gender": "male", "age": 18, "公众号": "Python编程时光", "msg": "欢迎大家关注我的公众号！"}}
-a= 55
-print(a)
+ll = {"profile": {"name": "明哥", "gender": "male", "age": 18, "公众号": "Python编程时光", "msg": "欢迎大家关注我的公众号！"}}
+# a= 5
+print(ll)  #
+print(ll)  #
+print(ll)  #
+print(ll)  #
+print(ll)  #
+print(ll)
