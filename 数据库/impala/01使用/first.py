@@ -5,13 +5,13 @@ import sys
 
 
 def impala_conn_exec(sql):
-    conn = connect(host='192.168.x.xx', port=21050)
+    conn = connect(host='172.20.3.22', port=21050,database="gkyy_medical_kudu_db")
     cur = conn.cursor()
     cur.execute(sql)
     data_list = cur.fetchall()
     return data_list
 
 
-sql = "select pk_value,send from  intf_trade_log t where pk_value='00033015017DC9F468FF0E9ABD8A582C'"
+sql = "select * from baseinfo"
 now_num = impala_conn_exec(sql)
 print(now_num)

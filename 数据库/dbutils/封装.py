@@ -1,7 +1,6 @@
 import pymysql
 from dbutils.pooled_db import PooledDB
 
-
 def mysql_conn():
     host = "10.20.1.24"
     port = "3307"
@@ -62,6 +61,9 @@ class MyDbutils():
         result = []
         conn = self.pool.connection()
         try:
+            #设置查询返回为key,value
+            # impyla 为dictify=True
+            # pymysql为pymysql.cursors.DictCursor
             cursor = conn.cursor()
             # 执行结果
             cursor.execute(sql, args)

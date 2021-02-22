@@ -22,7 +22,7 @@ def test2():
     pass
 
 
-app.add_url_rule("/test2", endpoint="test2", view_func=test2)
+app.add_url_rule("/test2", endpoint="test2", view_func=test2,methods=["GET"])
 """
 方式3
 """

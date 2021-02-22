@@ -1,1 +1,0 @@
-INFO first.py 15 你好啊

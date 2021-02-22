@@ -125,9 +125,9 @@ def main():
             f1.write(sql)
 
 if __name__ == '__main__':
-    # main()
+    main()
     # print(len(inspector.get_table_names("c")))
-    inspector.g
+    # inspector.g
     # create_sql("gkyy_medical", "baseinfo")
     # x = inspector.get_pk_constraint("baseinfo", "gkyy_medical")
     # x = inspector.get_pk_constraint("d", "a")
