@@ -1,0 +1,6 @@
+猴子补丁(monkey patch)
+如果很多地方用的import json,后来发现ujson比自带json快了N倍,于是问题来了,难道几十个文件要一个个把import json改成import ujson as json吗?
+其实只需要在进程启动的地方monkey patch就行了.是影响整个进程空间的.
+同一进程空间中一个module只会被运行一次.
+例子在second.py　把json中的dumps，loads函数使用使用ujson中的dumps，loads替代
+后面的倒入import json 都会使用前面进行替代的json类

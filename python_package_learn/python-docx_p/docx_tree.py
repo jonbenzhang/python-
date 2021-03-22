@@ -22,10 +22,10 @@ for level, name in catalog_list:
     if not l:
         l = level
     for _ in range(level - l):
-        children = catalog_tree[-1]["children"]
+        children = children[-1]["children"]
     children.append({"name": name, "children": []})
 
 
-print(catalog_tree)
+# print(catalog_tree)
 import json
 print(json.dumps(catalog_tree, ensure_ascii=False))

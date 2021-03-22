@@ -64,6 +64,7 @@ class MyDbutils():
             #设置查询返回为key,value
             # impyla 为dictify=True
             # pymysql为pymysql.cursors.DictCursor
+            # cursor = conn.cursor(pymysql.cursors.DictCursor)
             cursor = conn.cursor()
             # 执行结果
             cursor.execute(sql, args)
