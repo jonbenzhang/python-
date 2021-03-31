@@ -1,11 +1,26 @@
-a = {"custom":{},"username":"","capabilities":{"version_control":False,"create_projects":True,"delete_projects":True,"rename_projects":True,"deploy_projects":True,"rename_spiders":True,"rename_templates":True}}
-b = {"username":"","capabilities":{"deploy_projects":False,"delete_projects":True,"create_projects":True,"rename_projects":True,"version_control":False,"rename_templates":True,"rename_spiders":True},"custom":{}}
-aa = [i for i in a]
-aa.sort()
-bb = [i for i in b]
-bb.sort()
-print(aa)
-print(bb)
-for i,j in a["capabilities"].items():
-    if j!=b["capabilities"][i]:
-        print(i,j)
+while True:
+    try:
+        a = input("")
+        results = []
+        result = ""
+        left = 0
+        sign = True
+        for i in range(len(a)):
+            if a[i] in {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}:
+                if sign:
+                    left = i
+                    sign = False
+            else:
+                if not sign:
+                    if i - left == len(result):
+                        result = a[left:i]
+                        results.append(result)
+                    elif i - left > len(result):
+                        results = []
+                        result = a[left:i]
+                        results.append(a[left:i])
+                    sign = True
+        print("".join(results), len(result))
+
+    except:
+        break

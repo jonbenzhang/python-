@@ -20,7 +20,6 @@ import collections
 from collections import deque
 
 
-# TODO 还没解决，时间过长没有通过
 class Solution:
     @classmethod
     def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
@@ -33,7 +32,8 @@ class Solution:
         q = deque()
         q.append([beginWord])
         level = 0
-        while q or end_sign or level < len(word_set) + 1:
+        while q and not end_sign and level < len(word_set) + 1:
+            visited_now = set()
             level += 1
             for _ in range(len(q)):
                 path = q.popleft()
@@ -42,48 +42,20 @@ class Solution:
                     for j in range(26):
                         s = word[0:i] + chr(ord('a') + j) + word[i + 1:]
                         if s in word_set and s not in visited:
-                            path2 = path.copy()
-                            path2.append(s)
+                            path2 = path + [s]
                             if s == endWord:
                                 if not end_sign:
                                     end_sign = True
                                 results.append(path2)
                             else:
-                                visited.add(s)
+                                visited_now.add(s)
                                 q.append(path2)
+            visited = visited | visited_now
         return results
-
-
-# 复制来的
-class Solution2:
-    @classmethod
-    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
-        cost = collections.defaultdict(lambda: float("inf"))
-        cost[beginWord] = 0
-        neighbors = collections.defaultdict(list)
-        ans = []
-
-        for word in wordList:
-            for i in range(len(word)):
-                neighbors[word[:i] + "*" + word[i + 1:]].append(word)
-        q = collections.deque([[beginWord]])
-
-        while q:
-            path = q.popleft()
-            cur = path[-1]
-            if cur == endWord:
-                ans.append(path.copy())
-            else:
-                for i in range(len(cur)):
-                    for neighbor in neighbors[cur[:i] + "*" + cur[i + 1:]]:
-                        if cost[cur] + 1 <= cost[neighbor]:
-                            q.append(path + [neighbor])
-                            cost[neighbor] = cost[cur] + 1
-        return ans
 
 
 if __name__ == '__main__':
     beginWord = "hit"
     endWord = "cog"
-    wordList = ["hot", "dot", "dog", "lot", "log"]
+    wordList = ["hot", "dot", "dog", "lot", "log", "cog"]
     print(Solution.findLadders(beginWord, endWord, wordList))
