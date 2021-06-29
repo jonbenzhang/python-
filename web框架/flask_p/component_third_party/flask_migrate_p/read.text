@@ -1,0 +1,21 @@
+# 安装,高版本遇到了找不到MigrateCommand的问题
+pip install flask-migrate==2.5.3
+
+
+# 创建迁移脚本
+python database.py db migrate -m 'initial migration'    # 第一次迁移不要使用 - m
+# 更新数据库
+python database.py db upgrade
+# 查看历史
+python app.py db history   # 输出格式：<base> ->  版本号 (head), initial migration
+# 回滚到指定版本
+python app.py db downgrade 版本号
+
+
+数据库迁移操作顺序:#
+1.python 文件 db init
+2.根据需求修改模型
+3.python flaskapp文件 db migrate -m"新版本名(注释)"
+4.python flaskapp文件 db upgrade 然后观察表结构
+5.若返回版本,则利用 python 文件 db history查看版本号
+6.python 文件 db downgrade(upgrade) 版本号

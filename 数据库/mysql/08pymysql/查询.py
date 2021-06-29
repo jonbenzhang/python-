@@ -13,7 +13,7 @@ sql = "select * from userinfo where username='%s' and password='%s'" %(user,pwd,
 # select * from userinfo where username='uu' or 1=1 -- ' and password='%s'
 使用　execute(sql,data)的方式，它集成了避免sql注入的机制
 对于下面sql,代码data可以有如下两种形式
-sql = "select * from userinfo where username=%s and password=%s"
+sql = "select * from userinfo where username=%s and password=F%s"
 每一个%s和后面列表中的值一一对应
 cursor.execute(sql,[user,pwd])
 cursor.execute(sql,(user,pwd))
@@ -45,5 +45,7 @@ cursor.scroll(-1, mode='relative')
 print(cursor.fetchone())
 result = cursor.fetchone()
 print(result)
+print(cursor.description)
+
 cursor.close()
 conn.close()

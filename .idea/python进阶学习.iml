@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/05技术点/01猴子补丁" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web框架/grpc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/08leetcode" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web框架/werkzeug/source_code" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/web框架/flask_p/source_code" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.8 (package_learn)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

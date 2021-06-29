@@ -4,7 +4,7 @@ from dbutils.pooled_db import PooledDB
 def mysql_conn():
     host = "10.20.1.24"
     port = "3307"
-    database = "test2"
+    database = "11"
     username = "sguser"
     passwd = "python1python"
     return pymysql.connect(host=host,
@@ -93,6 +93,12 @@ class MyDbutils():
 
 
 if __name__ == '__main__':
-    dbutils = MyDbutils()
-    b = dbutils.alter("insert into t1 (name) values (%s)", 1)
-    print(b)
+    # dbutils = MyDbutils()
+    # b = dbutils.alter("insert into t1 (name) values (%s)", 1)
+    # print(b)
+    a = mysql_conn()
+    c = a.cursor()
+    # c.execute("select * from sch1 where id = %s","1 or 1 = 1")
+    print(c.mogrify("select * from sch1 where id = %s", "1 or 1 = 1"))
+    # print(a.escape_string("1 or 1 = 1"))
+    # print(c.fetchall())
