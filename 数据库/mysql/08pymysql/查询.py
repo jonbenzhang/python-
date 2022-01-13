@@ -3,7 +3,7 @@ import pymysql
 user = input("username:")
 pwd = input("password:")
 
-conn = pymysql.connect(host="localhost", user='root', password='123456', database="zhang")
+conn = pymysql.connect(host="localhost", user='root', password='123456', database="zhang",port=3306)
 cursor = conn.cursor()
 # 加上如下参数可使sql的返回数据每一条都为字典类型．
 # cursor = conn.cursor(cursor=pymysql.cursors.DictCursor)

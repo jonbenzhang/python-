@@ -1,4 +1,5 @@
 import pymysql
+pymysql.connections
 from dbutils.pooled_db import PooledDB
 import os
 

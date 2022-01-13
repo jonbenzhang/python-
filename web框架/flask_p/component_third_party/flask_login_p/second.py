@@ -1,4 +1,4 @@
-from flask import Flask
+from flask_old import Flask
 from flask_login import LoginManager
 
 # ...
@@ -98,7 +98,7 @@ class LoginForm(FlaskForm):
     password = PasswordField('密码', validators=[DataRequired()])
 
 
-from flask import render_template, redirect, url_for, request
+from flask_old import render_template, redirect, url_for, request
 from flask_login import login_user
 
 
@@ -123,7 +123,7 @@ def login():
     return render_template('login.html', form=form, emsg=emsg)
 
 
-from flask import render_template, url_for
+from flask_old import render_template, url_for
 from flask_login import current_user, login_required
 
 
@@ -134,7 +134,7 @@ def index():
     return render_template('index.html', username=current_user.username)
 
 
-from flask import redirect, url_for
+from flask_old import redirect, url_for
 from flask_login import logout_user
 
 

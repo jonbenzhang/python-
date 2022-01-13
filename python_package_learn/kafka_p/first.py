@@ -27,7 +27,7 @@ def producer_demo():
 
 
 def consumer_demo():
-    consumer = KafkaConsumer(
+    consumer = KafkaConsumer(0
         'quickstart-events',
         bootstrap_servers=['localhost:9092'],
         group_id='test',

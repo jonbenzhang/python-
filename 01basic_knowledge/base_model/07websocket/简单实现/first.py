@@ -3,7 +3,7 @@
 # @Author  : dataport
 # @File    : first.py
 # @Software: PyCharm
-from flask import Flask, render_template, request
+from flask_old import Flask, render_template, request
 from geventwebsocket.handler import WebSocketHandler
 from gevent.pywsgi import WSGIServer
 

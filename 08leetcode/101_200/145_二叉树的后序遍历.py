@@ -45,6 +45,5 @@ class Solution:
                 stack.append(node.left)
             if node.right:
                 stack.append(node.right)
-
         return results[::-1]
 

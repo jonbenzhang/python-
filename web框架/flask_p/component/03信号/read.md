@@ -27,7 +27,7 @@ message_flashed = _signals.signal('message-flashed')                # 调用flas
 def f(*args,**kwargs):
     # 自定义的信号触发函数
     print(args,kwargs)
-from flask import signals
+from flask_old import signals
 # flask内置信号函数绑定 
 signals.request_started.connect(f)
 ```
@@ -35,7 +35,7 @@ signals.request_started.connect(f)
 
 ## 4.自定义信号,注册，触发
 ```python
-from flask.signals import _signals
+from flask_old.signals import _signals
 xxx = _signals.signal("xxx") 
 def f(*args,**kwargs):
     # 自定义的信号触发函数

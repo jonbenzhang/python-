@@ -1,5 +1,5 @@
 from flask_restful import abort, Resource, Api
-from flask import Blueprint
+from flask_old import Blueprint
 
 """
 下面是通过flask_restful定义接口，定义的接口在蓝图上
@@ -30,7 +30,7 @@ api.init_app(routes)
 """
 定义在flask app上
 """
-from flask import Flask
+from flask_old import Flask
 
 app = Flask(__name__)
 # 把api连接在app上

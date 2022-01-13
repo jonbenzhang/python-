@@ -6,7 +6,7 @@
 """
 flask内置信号的使用
 """
-from flask import signals, Flask
+from flask_old import signals, Flask
 # import blinker.base
 
 app = Flask(__name__)

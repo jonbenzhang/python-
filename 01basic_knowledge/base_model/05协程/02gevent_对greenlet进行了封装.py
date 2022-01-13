@@ -45,7 +45,7 @@ def func3():
 
 print(">>主线程", threading.current_thread())
 
-# 定义func１的协程,g1
+# 定义func１的协程,g1,定义了就会开始执行协程
 g1 = gevent.spawn(func1)
 # 定义func2的协程,g2
 g2 = gevent.spawn(func2)
@@ -53,8 +53,9 @@ g2 = gevent.spawn(func2)
 g3 = gevent.spawn(func3)
 # 等待协程g1运行结束
 # 可以看到虽然开启了三个协程，但是仍然只有一个线程存在，说明协程都运行在一个线程上
-print("当前的存活线程数:", threading.active_count())
-g1.join()
+# print("当前的存活线程数:", threading.active_count())
+
+g2.join()
 # 等待协程g2运行结束
 g2.join()
 g3.join()

@@ -1,4 +1,5 @@
-from flask import request
+# from flask_old import request
+from flask_ import request
 import os
 import xlrd
 # 获取到名为file的文件，也可以使用for循环递归读取

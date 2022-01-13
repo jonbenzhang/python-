@@ -1,5 +1,5 @@
 from flask_sslify import SSLify
-from flask import Flask
+from flask_old import Flask
 
 app = Flask(__name__)
 

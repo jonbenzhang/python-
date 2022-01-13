@@ -1,6 +1,6 @@
 import logging
 from logging.handlers import RotatingFileHandler
-from flask import Flask
+from flask_old import Flask
 
 app = Flask(__name__)
 

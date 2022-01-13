@@ -1,6 +1,6 @@
 # EPXUEQJXIMLHIEJL
 # EPXUEQJXIMLHIEJL
-from flask import Flask
+from flask_old import Flask
 from flask_mail import Mail
 from flask_mail import Message
 

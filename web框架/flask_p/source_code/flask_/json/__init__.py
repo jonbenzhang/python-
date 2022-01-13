@@ -367,6 +367,7 @@ def jsonify(*args, **kwargs):
         data = args or kwargs
 
     return current_app.response_class(
+        # indent 设置转化后json的缩进,separators设置json的分割符号
         dumps(data, indent=indent, separators=separators) + "\n",
         mimetype=current_app.config["JSONIFY_MIMETYPE"],
     )

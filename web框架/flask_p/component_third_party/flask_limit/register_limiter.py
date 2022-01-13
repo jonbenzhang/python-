@@ -1,6 +1,6 @@
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
-from flask import Flask
+from flask_old import Flask
 # 定义flask_limiter到flask上
 # 定义方式1
 app = Flask(__name__)

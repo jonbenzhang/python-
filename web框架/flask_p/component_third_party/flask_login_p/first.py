@@ -1,11 +1,11 @@
-import flask
+import flask_ as flask
 
 app = flask.Flask(__name__)
 # 这是加密密钥
 app.secret_key = 'super secret string'  # Change this!
 
-# import flask_login
-from source_code import flask_login
+import flask_login
+# from source_code import flask_login
 
 login_manager = flask_login.LoginManager()
 
@@ -84,7 +84,7 @@ def logout():
 
 @app.route("/cookie")
 def cookie():
-    from flask import request
+    from flask_old import request
     print(request.cookies.get("login_key"))
     return {}
 

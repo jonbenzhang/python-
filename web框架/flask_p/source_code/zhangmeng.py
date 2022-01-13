@@ -5,7 +5,6 @@ app = Flask(__name__)
 def main():
     # print(g.__dict__)
     return [1,2]
-app.logger
 # app.__call__
 app.run()
 # request.get_data()

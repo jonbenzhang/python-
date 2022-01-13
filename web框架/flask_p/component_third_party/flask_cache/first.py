@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from flask import Flask
+from flask_old import Flask
 from flask_cache import Cache
 
 app = Flask(__name__)

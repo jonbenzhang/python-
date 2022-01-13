@@ -1,4 +1,4 @@
-from flask.testing import FlaskClient
+from flask_old.testing import FlaskClient
 
 
 class FlaskLoginClient(FlaskClient):

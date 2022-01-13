@@ -3,12 +3,12 @@
 # @Author  : dataport
 # @File    : a.py
 # @Software: PyCharm
-from flask import Flask, request, session, g
-from flask import globals
+from flask_old import Flask, request, session, g
+from flask_old import globals
 # RequestContext 中封装了一个　werkzeug 中的 request 对象
-from flask.ctx import RequestContext
+from flask_old.ctx import RequestContext
 # werkzeug 中的 request 对象
-from flask.wrappers import RequestBase
+from flask_old.wrappers import RequestBase
 # from werkzeug.wsgi import
 # from werkzeug.wsgi import DispatcherMiddleware
 # from werkzeug.middleware.dispatcher import DispatcherMiddleware

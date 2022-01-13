@@ -9,8 +9,8 @@
 import warnings
 from datetime import datetime, timedelta
 
-from flask import (_request_ctx_stack, abort, current_app, flash, redirect,
-                   has_app_context, request, session)
+from flask_old import (_request_ctx_stack, abort, current_app, flash, redirect,
+                       has_app_context, request, session)
 
 from ._compat import text_type
 from .config import (COOKIE_NAME, COOKIE_DURATION, COOKIE_SECURE,
@@ -107,7 +107,7 @@ class LoginManager(object):
         attaches this `LoginManager` to it as `app.login_manager`.
 
         :param app: The :class:`flask.Flask` object to configure.
-        :type app: :class:`flask.Flask`
+        :type app: :class:`flask_old.Flask`
         :param add_context_processor: Whether to add a context processor to
             the app that adds a `current_user` variable to the template.
             Defaults to ``True``.

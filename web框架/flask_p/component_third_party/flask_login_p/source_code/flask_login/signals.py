@@ -7,7 +7,7 @@
 '''
 
 
-from flask.signals import Namespace
+from flask_old.signals import Namespace
 
 
 _signals = Namespace()

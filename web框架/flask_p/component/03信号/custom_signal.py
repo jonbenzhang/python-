@@ -1,5 +1,5 @@
-from flask import Flask
-from flask.signals import _signals
+from flask_old import Flask
+from flask_old.signals import _signals
 
 app = Flask(import_name=__name__)
 

@@ -1,5 +1,5 @@
 # --*-- encoding:utf8 --*--
-from flask import Flask, jsonify
+from flask_old import Flask, jsonify
 from flask_caching import Cache
 
 app = Flask(__name__)

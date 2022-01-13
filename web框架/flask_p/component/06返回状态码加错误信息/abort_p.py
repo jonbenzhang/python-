@@ -1,4 +1,4 @@
-from flask import abort
+from flask_old import abort
 """
 返回错误自定义错误状态码,和错误信息
 """

@@ -1,4 +1,4 @@
-from flask import Flask
+from flask_old import Flask
 
 from flask_script import Manager, Command,Option
 

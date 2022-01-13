@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint
+from flask_old import Flask, Blueprint
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 

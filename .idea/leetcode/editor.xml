@@ -3,6 +3,22 @@
   <component name="LeetcodeEditor">
     <option name="projectConfig">
       <map>
+        <entry key="/tmp/leetcode/editor/cn/[118]杨辉三角.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/tmp/leetcode/editor/cn/[118]杨辉三角.py" />
+              <option name="questionId" value="118" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/tmp/leetcode/editor/cn/[119]杨辉三角 II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="/tmp/leetcode/editor/cn/[119]杨辉三角 II.py" />
+              <option name="questionId" value="119" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="/tmp/leetcode/editor/cn/[121]买卖股票的最佳时机.py">
           <value>
             <LeetcodeEditor>

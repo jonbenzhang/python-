@@ -1,4 +1,4 @@
-from ...source_code.flask import Flask
+from flask_ import Flask
 from flask_.wrappers import Response
 
 app = Flask(__name__)

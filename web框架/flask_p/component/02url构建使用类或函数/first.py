@@ -1,4 +1,4 @@
-from flask import Flask
+from flask_old import Flask
 
 # 蓝图也可以
 app = Flask(__name__)
@@ -26,7 +26,7 @@ app.add_url_rule("/test2", endpoint="test2", view_func=test2,methods=["GET"])
 """
 方式3
 """
-from flask import views
+from flask_old import views
 
 
 class Test3(views.MethodView):

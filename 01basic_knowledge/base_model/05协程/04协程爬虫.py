@@ -4,7 +4,7 @@
 # @File    : 04协程爬虫.py
 # @Software: PyCharm
 from gevent import monkey
-
+import threading
 monkey.patch_all()
 import requests
 import gevent
@@ -12,6 +12,7 @@ import gevent
 
 def get_url(url):
     response = requests.get(url)
+    print(threading.current_thread(),gevent.getcurrent())
     if response.status_code == 200:
         return len(response.content.decode("utf-8"))
     else:
