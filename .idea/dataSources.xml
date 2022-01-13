@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="本地数据库" uuid="86373da3-5cd2-406f-ba13-7b09f2f54c57">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/zhang</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="@172.20.3.29" uuid="a6812c59-10c9-4e7a-af57-49437512bb61">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@172.20.3.29:1521:helowin</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="zhang_test" uuid="a9705d6e-1517-46ce-b58f-0a771876e407">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://172.20.3.29:5432/zhang_test</jdbc-url>
+    </data-source>
+  </component>
+</project>

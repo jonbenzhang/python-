@@ -1,0 +1,6 @@
+按照下面顺序依次安装
+pip install six
+pip install bit_array
+pip install thriftpy
+pip install thrift_sasl
+pip install impyla

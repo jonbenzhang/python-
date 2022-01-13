@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7651ff45-8d87-44f3-8835-5e54c82eae49" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/06asyncio/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/async_await/down_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/async_await/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/async_await/r.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/async_await/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/async_await/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/06io模型/03异步io/asyncio_p.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/06io模型/03异步io/asyncio_p3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/06io模型/03异步io/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../05技术点/01猴子补丁/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../05技术点/01猴子补丁/read.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../05技术点/01猴子补丁/second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../05技术点/01猴子补丁/sub.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../06图解算法数据结构/data_structure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../06图解算法数据结构/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../06图解算法数据结构/leetcode/10/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../06图解算法数据结构/t.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../07algorithm/02tree/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../07algorithm/linked_list/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/011_container_with_most_water.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/024_swap-nodes-in-pairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/025_reverse-nodes-in-k-group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/026_remove-duplicates-from-sorted-array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/104_二叉树的最大深度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/111_二叉树的最小深度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/141_linked-list-cycle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/142_linked-list-cycle-ii.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/144_二叉树的前序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/145_二叉树的后序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/155_min-stack.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/189_rotate-array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/1_two_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/206_reverse_linked_list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/20_valid-parentheses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/226_翻转二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/22_括号生成.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/239_滑动窗口最大值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/242_有效的字母异位词.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/283_move_zeroes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/297_二叉树的序列化与反序列化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/39_组合总和.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/3_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/40_组合总和 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/429_N叉树的层序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/42_接雨水.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/46_全排列.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/47_全排列 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/49_字母异位词分组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/589_N叉树的前序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/590_N叉树的后序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/66_plus-one.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/70_climbing_stairs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/77_组合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/78_子集.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/81_柱状图中最大的矩形.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/88_merge-sorted-array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/90_子集 II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/94_二叉树的中序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/98_验证二叉搜索树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/read.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../08leetcode/模板.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../resume/question.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../component/10test/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/flask-caching.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis_cache2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_cache/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask_cache/read.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/msg.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/msg_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/msg_pb2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/msg_pb2_grpc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../grpc/msg_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mongodb/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mongodb/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mongodb/read.text" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mongodb/second.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mongodb/third.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/first.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/42655-20190222000420486-835926543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/join.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/mvcc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/mvcc1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/mvcc2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/sql分类.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/mysql/笔记/images/事务.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/redis/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/redis/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/python进阶学习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/05协程/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../python_package_learn/python-docx_p/docx_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../python_package_learn/python-docx_p/docx_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source_code/flask/zhangmeng.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../source_code/flask/zhangmeng.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../twisted_p/02slow_poetry/first/twisted-intro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../twisted_p/02slow_poetry/first/twisted-intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/dbutils/封装.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/dbutils/封装.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1puOOR3d1hNNlWa6szSR7D7uQlr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="flask-caching" type="Python.FlaskServer">
+      <module name="flask-caching" />
+      <option name="target" value="$PROJECT_DIR$/first.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7651ff45-8d87-44f3-8835-5e54c82eae49" name="Default Changelist" comment="" />
+      <created>1616029475375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616029475375</updated>
+      <workItem from="1616029482574" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

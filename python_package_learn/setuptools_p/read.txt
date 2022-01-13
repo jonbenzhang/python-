@@ -1,0 +1,7 @@
+#检查是否setup.py是否有错
+python setup.py check
+# 把python包进行编译
+python setup.py build
+# install会先执行build然后执行install
+# install,build后把build/lib文件到用户指定的lib库
+python setup.py install

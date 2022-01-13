@@ -1,0 +1,17 @@
+-- 180. 连续出现的数字
+-- SQL架构
+-- 表：Logs
+--
+-- +-------------+---------+
+-- | Column Name | Type    |
+-- +-------------+---------+
+-- | id          | int     |
+-- | num         | varchar |
+-- +-------------+---------+
+-- id 是这个表的主键。
+--
+--
+-- 编写一个 SQL 查询，查找所有至少连续出现三次的数字。
+--
+-- 返回的结果表中的数据可以按 任意顺序 排列。
+select num as ConsecutiveNums from (select num,count(id) as a from Logs group by num) as t where t.a>=3

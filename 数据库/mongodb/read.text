@@ -1,0 +1,8 @@
+安装
+pip install pymongo
+使用
+https://www.cnblogs.com/melonjiang/p/6536876.html
+docker 安装
+https://www.runoob.com/docker/docker-install-mongodb.html
+使用
+https://www.runoob.com/mongodb/mongodb-connections.html

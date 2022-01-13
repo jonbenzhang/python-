@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e484c18-e58b-4e32-afa9-461af7f4e381" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/04_多线程/12线程安全测试/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../python_package_learn/python-docx_p/docx_read.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../python_package_learn/python-docx_p/docx_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../python_package_learn/python-docx_p/read.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../sline" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../source.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../source.tp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../target.tp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../component/url构建使用类或函数/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../component/信号/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../component/请求中间件/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/dbutils/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/dbutils/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/dbutils/封装.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../数据库/impala/01使用/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.idea/python进阶学习.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.idea/python进阶学习.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/03_多进程/12进程池/01map.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/03_多进程/12进程池/01map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/04_多线程/05线程锁/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/base_model/04_多线程/05线程锁/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../01basic_knowledge/time_datetime_timeit.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../01basic_knowledge/time_datetime_timeit.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../03个人小工具/01socket端口映射/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../03个人小工具/01socket端口映射/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../03个人小工具/02sql转化/a.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../03个人小工具/02sql转化/a.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../03个人小工具/02sql转化/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../03个人小工具/02sql转化/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pycharm使用/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pycharm使用/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pycharm使用/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pycharm使用/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pycharm使用/second.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pycharm使用/second.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../pycharm使用/安装/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../pycharm使用/安装/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/flask_p.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/flask_p.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../component/abort_p.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../component/abort_p.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../component/blueprint/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../component/blueprint/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../component/blueprint/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../component/blueprint/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../flask_restful/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../flask_restful/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flask_m/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source_code/flask/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../source_code/flask/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source_code/flask/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../source_code/flask/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../source_code/flask/blueprints.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../source_code/flask/blueprints.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../twisted_p/02slow_poetry/first/twisted-intro" beforeDir="false" afterPath="$PROJECT_DIR$/../../../twisted_p/02slow_poetry/first/twisted-intro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/hive/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/hive/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/hive/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/hive/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/impala/sqlachemy/data_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/impala/sqlachemy/data_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/impala/安装/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/impala/安装/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/mysql/08pymysql/查询.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/mysql/08pymysql/查询.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/oracle/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/oracle/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/oracle/安装/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/oracle/安装/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/postgreSql/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/postgreSql/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/postgreSql/read.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/postgreSql/read.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/sqlachemy_p/获取数据库以及表的结构/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/sqlachemy_p/获取数据库以及表的结构/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/sqlachemy_p/获取数据库以及表的结构/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/sqlachemy_p/获取数据库以及表的结构/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../数据库/sql基本/01查看sql表结构/read.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../数据库/sql基本/01查看sql表结构/read.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../爬虫/04reuqests/down_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../爬虫/04reuqests/down_file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../爬虫/04reuqests/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../爬虫/04reuqests/first.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1igCQedanNJ0ztrSwFdoUaP9Gks" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.first">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="flask_login_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="flask_login_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/first.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="second" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="flask_login_p" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/package_learn/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/second.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (second.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="flask_login_p" />
+      <option name="target" value="$PROJECT_DIR$/second.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="first.py" type="Python.FlaskServer" temporary="true">
+      <module name="flask_login_p" />
+      <option name="target" value="$PROJECT_DIR$/first.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.first.py" />
+      <item itemvalue="Flask server.Flask (second.py)" />
+      <item itemvalue="Python.second" />
+      <item itemvalue="Python.first" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (second.py)" />
+        <item itemvalue="Flask server.first.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e484c18-e58b-4e32-afa9-461af7f4e381" name="Default Changelist" comment="" />
+      <created>1602319832278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602319832278</updated>
+      <workItem from="1602319839014" duration="924000" />
+      <workItem from="1602320773326" duration="689000" />
+      <workItem from="1602321501019" duration="730000" />
+      <workItem from="1602490813206" duration="11075000" />
+      <workItem from="1607399239864" duration="3936000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_login_p$Flask__second_py_.coverage" NAME="Flask (second.py) Coverage Results" MODIFIED="1602551143302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_login_p$first.coverage" NAME="first Coverage Results" MODIFIED="1607409423639" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_login_p_$Flask__first_py_.coverage" NAME="Flask (first.py) Coverage Results" MODIFIED="1602321907970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_login_p_$first.coverage" NAME="first Coverage Results" MODIFIED="1602322219980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_login_p$Flask.coverage" NAME="Flask (first.py) Coverage Results" MODIFIED="1602321285831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/flask_login_p$second.coverage" NAME="second Coverage Results" MODIFIED="1602551298952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

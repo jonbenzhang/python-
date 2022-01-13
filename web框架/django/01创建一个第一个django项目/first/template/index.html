@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h2>直接取值</h2>
+<div>{{msg}}</div>
+<div>{{msg}}</div>
+<h2>列表取值</h2>
+<div>{{msg_list.0}}</div>
+<div>{{msg_list.1}}</div>
+<div>{{msg_list.2}}</div>
+<h2>字典取值</h2>
+<div>{{msg_dict.id}}</div>
+<div>{{msg_dict.name}}</div>
+<div>{{msg_dict.father}}</div>
+<h2>循环取值</h2>
+    <table>
+    {% for user_dict in user_dict_list %}
+        <tr>
+            <td>{{ user_dict.id }}</td>
+            <td>{{user_dict.name}}</td>
+            <td>{{user_dict.father}}</td>
+        </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>

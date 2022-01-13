@@ -1,0 +1,26 @@
+安装
+pip install Flask-Limiter
+参考文档地址
+1.https://www.cnblogs.com/Du704/p/13281032.html
+2.官网 https://flask-limiter.readthedocs.io/en/stable/
+3. github  https://github.com/alisaifee/flask-limiter
+
+flask_limit.Limiter类初始化属性，Limiter(app=None, key_func=None, global_limits=[], default_limits=[], default_limits_per_method=False, default_limits_exempt_when=None, default_limits_deduct_when=None, application_limits=[], headers_enabled=False, strategy=None, storage_uri=None, storage_options={}, auto_check=True, swallow_errors=False, in_memory_fallback=[], in_memory_fallback_enabled=False, retry_after=None, key_prefix='', enabled=True)
+
+参数	说明
+app	即flask的项目
+key_func	限制域
+default_limits	默认限制策略
+default_limits_per_method	默认限制是按方法/路线应用还是按每种方法所有方法的组合应用。
+default_limits_exempt_when	默认豁免条件
+default_limits_deduct_when	接收response对象并返回True / False以决定是否应从默认速率限制中扣除的函数
+application_limits	所有路由的共享限制
+headers_enabled	是否写入响应头
+storage_uri	存储位置,可以配置为使用redis地址
+storage_options	意义不明的额外配置
+auto_check	是否自动检查应用程序的before_request链中的速率限制。默认True
+swallow_errors	达到速率限制时会记录异常。默认False
+in_memory_fallback	字符串或可调用项的可变列表，返回表示存储空间不足时要应用的回退限制的字符串
+in_memory_fallback_enabled	仅在主存储关闭并继承原始限制时才退回到内存存储中。
+key_prefix	前缀
+strategy	策略

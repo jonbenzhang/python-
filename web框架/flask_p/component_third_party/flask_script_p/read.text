@@ -1,0 +1,3 @@
+安装 pip install flask_script
+是flask的脚本命令
+flask manage.py runserver

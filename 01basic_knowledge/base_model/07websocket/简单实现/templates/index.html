@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h2>this is index</h2>
+<script>
+    var ws = new WebSocket("ws://0.0.0.0:9632/message")
+    ws.onmessage = function (event) {
+        //服务端向客户端发送消息时，自动运行
+        console.log(event.data)
+    }
+</script>
+</body>
+</html>

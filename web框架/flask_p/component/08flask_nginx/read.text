@@ -1,0 +1,7 @@
+flask使用nginx代理需要在header中添加如下信息
+proxy_set_header   Host                 $host; # 当前浏览器域名
+proxy_set_header   X-Real-IP            $remote_addr; #一般只记录真实发出请求的客户端IP
+proxy_set_header   X-Forwarded-For      $proxy_add_x_forwarded_for; # 用于记录代理信息的，每经过一级代理(匿名代理除外)，代理服务器都会把这次请求的来源IP追加在X-Forwarded-For中
+proxy_set_header   X-Forwarded-Proto    $scheme; # 使用的协议http,https
+
+app

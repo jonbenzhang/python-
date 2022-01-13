@@ -1,0 +1,1 @@
+celery worker -A celery_app_task -l info # 运行celery

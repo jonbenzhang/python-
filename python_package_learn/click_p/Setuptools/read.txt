@@ -1,0 +1,1 @@
+pip install --editable . #安装脚本的命令

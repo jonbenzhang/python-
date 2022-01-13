@@ -1,0 +1,3 @@
+安装
+    pip install Flask-Cache
+已经多年未更新,使用flask-caching

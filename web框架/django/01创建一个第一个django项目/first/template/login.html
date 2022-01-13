@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link  rel="stylesheet" href="/static/login.css">
+</head>
+<body>
+<h1>login</h1>
+<!--method="post" 指定请求方式为post-->
+<!--指定请求的url为/login/-->
+<!--最后会以键值对的方式把值通过post发送给后端，key为input中的name，value为input中输入的值-->
+<!--{"username":内容,-->
+<!--password:内容}-->
+<form method="post" action="/login/">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="登陆">
+    {{msg}}
+</form>
+</body>
+</html>

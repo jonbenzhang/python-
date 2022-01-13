@@ -1,0 +1,2 @@
+开启work：
+celery worker -A celery_tasks -l info -P eventlet

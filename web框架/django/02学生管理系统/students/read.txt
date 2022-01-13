@@ -1,0 +1,13 @@
+创建学生表
+CREATE TABLE `student`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NULL COMMENT '姓名',
+  `class_id` int(0) NULL COMMENT '所属班级id',
+  PRIMARY KEY (`id`)
+);
+创建班级表
+CREATE TABLE `class`  (
+  `id` int(0) NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NULL,
+  PRIMARY KEY (`id`)
+);
